@@ -1,0 +1,280 @@
+body {
+	margin: 0;
+	padding:0;
+	line-height:1.4;
+	font-family:Verdana,   sans-serif;
+	color:#000;
+	background:none;
+}
+
+b,strong {
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0.67em 0;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,th {
+  padding: 2px 5px;
+}
+
+ h1,h5{
+	padding:0 0 4px 0;
+	margin:0;
+}
+
+#print h1, #print h5{
+	text-align:center;
+}
+
+#print h1{
+	font-size:120%;
+}
+
+#print h5{
+	font-weight:100%;
+}
+
+#print .grid-view table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding:7px;
+}
+
+#print .grid-view table.items th{
+	background:#FFF9AE;
+	color:#000;
+	padding: 0.4em;
+}
+
+#print table.items tr.odd,
+#print table.items tr.even{
+	background:#fff;
+}
+
+#print .grid-view table.items th,
+#print .grid-view table.items td{
+	border: 1px solid black;
+	font-family: Helvetica, Verdana, Arial,  sans-serif;
+
+}
+
+table.items{
+	font-size:12px;
+}
+
+table.pdv{
+	font-size:12px;
+}
+
+table.items,
+table.invoice-info{
+	padding:0px 0 15px 0;
+
+}
+
+table.items.order{
+	border:1px solid black;
+	border-collapse: collapse;
+}
+
+table.items.order td.hidden,
+table.items.order th.hidden{
+	display: none;
+	visibility: hidden;
+	visibility:collapse
+}
+
+table.items td, td b{
+	padding:4px;
+}
+
+table.items th.field_id{width: 60px}
+table.items th.field_name{width: 550px}
+table.items th.field_type{width: 90px}
+table.items th.field_q{width: 90px}
+table.items th.field_price{width: 150px}
+table.items th.field_total{width: 150px}
+
+
+
+table.invoice-info,
+table.items,
+table.pdv{
+	margin-bottom: 7px;
+}
+table.invoice-info td:nth-child(odd){
+	padding-left:15px;
+}
+
+table.invoice-info th{
+	text-align:left;
+}
+
+.pdv{
+	width:100%;
+}
+.invoice-left{
+	float:left;
+	width: 65%;
+}
+
+.invoice-right{
+	text-align: right;
+	width: 35%;
+	display: inline-block;
+	float: none;
+}
+
+td.right {
+	text-align: right;
+}
+
+table.info tr th{
+	width:20%;
+}
+
+table.info tr th{
+	width:20%;
+	font-weight:normal;
+	font-size:12px;
+	padding:4px;
+}
+
+table.info {
+	text-align:center;
+}
+div.title{
+	width:70px;
+	display:inline-block;
+}
+
+div#left-wrap{
+	padding: 0 1% 0 0;
+	border-right: 1px solid #000;
+	display: inline-block;
+	width: 75%;
+	float: left;
+}
+
+div#right-wrap {
+display: inline-block;
+width: 22%;
+float: left;
+padding: 0 0 0 1%;
+}
+#right-wrap div.wrap-underline{
+	width:280px;
+}
+div.left-title, .right-title{
+	width:100%;
+	padding:10px 0;
+}
+
+div.title{
+	vertical-align: top;
+	width: 150px;
+	display: inline-block;
+	font-weight: bold;
+}
+.right-title .title{
+width: 100%;
+padding-bottom: 7px;
+}
+
+div.wrap-underline{
+	text-align: center;
+	width: 65%;
+	display: inline-block;
+}
+
+div.wrap-underline-name{
+	padding-top:10px;
+	text-align: center;
+	width: 450px;
+	display: inline-block;
+}
+div.wrap-underline-name-small{
+	text-align: center;
+	width: 280px;
+	display: inline-block;
+}
+
+div.underline div#total, div.underline {
+	border-bottom: 1px solid #000;
+	font-weight: normal;
+}
+p.under{
+	font-size:10px;
+	padding-top:4px;
+	margin-top:0;
+}
+
+div#edrpoy {
+	display: inline-block;
+	border: 1px solid #000;
+	padding: 5px 15px;
+}
+h1.mp{
+	text-align:left;
+}
+div.hide{
+	display:none;
+}
+
+#print div.line {
+	display:inline-block;
+	width:300px;
+    border: 0;
+    border-bottom: 1px solid #999;
+    margin: 0;
+    padding: 0;
+	line-height: 15px;
+}
+
+span.line {
+	display:inline-block;
+	width:300px;
+    border: 0;
+    border-bottom: 1px solid #999;
+    margin: 0;
+    padding: 0;
+	line-height: 15px;
+}
+
+div.sender{
+	width: 310px;
+	float: left;
+	line-height: 2;
+	display:inline-block;
+}
+ #total {
+	font-weight: bold;
+}
+#total:first-letter{
+	text-transform: capitalize;
+}
+
+table.items p {
+	padding: 0;
+	margin: 0;
+}
+
+td.red{
+background: #FF6969;
+}
+td.yellow{
+background: #FFFFAD
+}

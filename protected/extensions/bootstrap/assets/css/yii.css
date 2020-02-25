@@ -1,0 +1,193 @@
+
+.grid-view table.items th a {
+  display:block;
+  position:relative;
+}
+.grid-view table.items th a .caret {
+  display:none;
+  position:absolute;
+  right:5px;
+  top:7px;
+}
+.grid-view table.items th a.asc .caret { display:block; }
+.grid-view table.items th a.desc .caret {
+  border-bottom:4px solid #000000;
+  border-top:none;
+  display:block;
+}
+.grid-view table.items tr.selected td { background:#cecece; }
+.grid-view .filters .filter-container { padding:0 15px 0 0; }
+.grid-view .filters input, .grid-view .filters select {
+  margin-bottom:0;
+  width:100%;
+}
+.grid-view .button-column {
+  text-align:center;
+  min-width:50px;
+}
+.grid-view .checkbox-column { width:15px; }
+.grid-view .summary {
+margin: 0px 0 -5px;
+text-align: right;
+}
+.grid-view .pager { margin-top:5px; }
+.grid-view .empty { font-style:italic; }
+.grid-view-loading { background:url(../img/loading.gif) no-repeat; }
+.list-view { padding-top:20px; }
+.list-view .summary {
+  margin-bottom:5px;
+  text-align:right;
+}
+.list-view .pager { margin-top:5px; }
+.list-view .sorter {
+  margin:0 0 5px 0;
+  text-align:right;
+}
+.list-view .sorter ul {
+  display:inline;
+  list-style:none outside none;
+  margin:0;
+  padding:0;
+}
+.list-view .sorter li {
+  display:inline;
+  margin:0 0 0 5px;
+  padding:0;
+}
+.list-view .sorter a .caret {
+  position:absolute;
+  right:5px;
+  top:7px;
+}
+.list-view .sorter a .caret.desc .caret {
+  border-bottom:4px solid #000000;
+  border-top:none;
+}
+.list-view-loading { background:url(../img/loading.gif) no-repeat; }
+.detail-view .null { color:#ffc0cb; }
+.detail-view th {
+  text-align:right;
+  width:160px;
+}
+span.required { color:#ff0000; }
+.form-inline label.error, .form-horizontal label.error, .form-vertical label.error { color:#b94a48; }
+.form-inline select.error, .form-inline input.error, .form-inline textarea.error, .form-horizontal select.error, .form-horizontal input.error, .form-horizontal textarea.error, .form-vertical select.error, .form-vertical input.error, .form-vertical textarea.error {
+  border-color:#b94a48;
+  color:#b94a48;
+}
+.form-inline select.error:focus, .form-inline input.error:focus, .form-inline textarea.error:focus, .form-horizontal select.error:focus, .form-horizontal input.error:focus, .form-horizontal textarea.error:focus, .form-vertical select.error:focus, .form-vertical input.error:focus, .form-vertical textarea.error:focus { border-color:#953b39; }
+.form-inline .help-block.error, .form-inline .help-inline.error, .form-horizontal .help-block.error, .form-horizontal .help-inline.error, .form-vertical .help-block.error, .form-vertical .help-inline.error { color:#b94a48; }
+
+
+ 
+
+.grid-view .filters select
+{
+	width:150px;
+}
+
+.ajaxStatusUpdate
+{
+	width:121px;
+}
+
+.filters select[name="Orders[paid]"],
+.filters select[name="Orders[archive]"],
+.filters select[name="OrderItems[archive]"], 
+.filters select[name="OrderItems[patina]"],
+.filters select[name="OrderItems[type_search]"],
+.filters select[name="OrderItems[joiner]"],
+.filters select[name="OrderItems[coating]"],
+.filters select[name="OrderItems[finish]"],
+.filters select[name="OrderItems[painter]"],
+.filters select[name="OrderItems[primer]"],
+.filters select[name="OrderItems[upholstery]"],
+.filters select[name="OrderItems[packing]"]
+{
+	width:65px;
+}
+
+.filters input[name="Orders[order_id]"]{
+	width:35px;
+}
+.grid-view .filters input[name="Shops[shop_id]"]
+{
+	width: 50px;
+}
+
+.grid-view .filters input[name="Shops[full_name]"]
+{
+	width: 150px;
+}
+
+.grid-view .filters input[name="Shops[full_name]"]
+{
+	width: 150px;
+}
+
+.filters select[name="Orders[status_id]"],
+.filters select[name="OrderItems[status_id]"]
+{
+	width: 125px;
+}
+
+
+.grid-view .filters input[name="Shops[phone]"]
+{
+	width: 80px;
+}
+
+.grid-view .filters input[name="Orders[created_on]"], .grid-view .filters input[name="Orders[delivery_date]"], .grid-view .filters input[name="OrderItems[created_on]"]
+{
+	width: 80px;
+}
+
+td.button-column{
+	width: 60px;
+}
+
+.search-form{
+padding: 10px;
+border: 1px solid rgb(153, 153, 153);
+display: block;
+margin: 10px;
+background: #f1f1f1;
+}
+::-webkit-inner-spin-button {
+    opacity:1;
+}
+::-webkit-outer-spin-button {
+   opacity:1;
+}
+.form-inline div.form-group{
+display:inline-block;
+margin: 0 15px 0px 0;
+line-height: 41px;
+}
+
+input#customShipmentValue {
+    width: 60px
+}
+
+.form-inline label{
+font-weight: bold;
+font-size: 17px;
+}
+form.form-inline{
+margin: 10px 0;
+}
+hr.invoice{
+color: #333;
+border-top: 0px;
+border-bottom: 1px solid #aaa;
+box-shadow: 0 1px 2px #ccc;
+}
+input#customText{
+width:688px;
+box-shadow:0 0 0 #fff;
+}
+div.inline{
+vertical-align: top;
+display: inline-block;
+
+} 
