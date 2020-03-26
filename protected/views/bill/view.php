@@ -73,7 +73,7 @@ if ($model->customer_id > 0){
     echo '
 	 <form class="form-inline inline">    
     <div class="input-group inline">
-        <input type="text" value="190" name="Email" id="defaultShipmentPrice" size="30" class="form-control input-lg"/>
+        <input type="text" value="300" name="Email" id="defaultShipmentPrice" size="30" class="form-control input-lg"/>
         <span class="input-group-addon input-lg"> грн.</span>
     </div>
 	 </form>    

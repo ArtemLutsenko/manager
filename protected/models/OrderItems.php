@@ -129,7 +129,7 @@ class OrderItems extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'order_item_id' => 'Order Item',
+			'order_item_id' => 'Арт.',
 			'order_id' => '№ Зам.',
 			'product_id' => 'Товар',
 			'product_search' => 'Товар',
@@ -150,13 +150,13 @@ class OrderItems extends CActiveRecord
             'modified_on' => 'Змінено',
             'modified_by' => 'Змінив',
             'archive' => 'Архів',
-            'joiner' => 'Столяр',
-            'coating' => 'Покриття',
+            'joiner' => 'Стол.',
+            'coating' => 'Покр',
             'finish' => 'Фініш',
-            'primer' => 'Грунтовка',
-            'packing' => 'Упаковка',
+            'primer' => 'Грунт',
+            'packing' => 'Упак.',
             'painter' => 'Маляр',
-            'upholstery' => 'Обивка',
+            'upholstery' => 'Обивк.',
             'customer_search'=>'Покупець',
             'city_search'=>'Місто доставки',
             'city_or_region'=>'Місто або область',
@@ -167,6 +167,7 @@ class OrderItems extends CActiveRecord
             'patina_search'=>'Патіна',
             'tinting_search'=>'Тонування',
             'shop_search'=>'Магазин',
+
 
 		);
 	}

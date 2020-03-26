@@ -157,7 +157,6 @@ echo CHtml::link(
                 'name'=>'product_id',
                 'type'=>'raw',
                 'value'=>'$data->product->product_name',
-                'filter' => CHtml::listData(Shops::model()->findAll(array('order' => 'full_name  ASC')), 'full_name', 'full_name'),///copy
             ),
 //            array(
 //                'class'=>'DToggleColumn',
@@ -223,10 +222,12 @@ echo CHtml::link(
             'modified_on',
             'modified_by',
             */
-            array('name' => 'delivery_date',
-                'value' =>'', // '$data->delivery_date!==null ? Yii::app()->dateFormatter->format("dd-MM-y", $data->delivery_date) : ""',
+            array('header' => 'Дата доставки',
+                'value' => '$data->order->delivery_date!==null ? Yii::app()->dateFormatter->format("dd-MM-y", $data->order->delivery_date) : ""',
                 'filter' => false,
+                'htmlOptions' => array('class' => 'delivery-date'),
             ),
+
 
             array(
                 'class'=>'DToggleColumn',

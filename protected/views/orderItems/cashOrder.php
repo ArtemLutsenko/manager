@@ -9,10 +9,10 @@ Yii::app()->clientScript->registerScript('managers', "
 
 $('table.detail-view').removeClass().addClass('invoice-info')
 
-var gv = '<table class=\"invoice-info\"><tr><th width=\"150px\">Відпущено:</th><th>ПП Олексенко Г. В.</th></tr><tr><td><b>ЄДРПОУ:</b></td><td><b>2345817293</b></td></tr><tr><td><b>АДРЕСА</b></td><td>Кам`нка, 2-й пров. Ватутіна, 6, кв.24</td></tr><tr><td><b>Тел.:</b></td><td>60319</td></tr><tr><td><b>РОЗР/РАХ.:</b></td><td>26003000049377 в ПАТ \"УКРСОЦБАНК\"</td></tr><tr><td><b>МФО</b></td><td>300023</td></tr><tr><td colspan=\"2\">єдиний податок</td> </tr></table>';
+var gv = '<table class=\"invoice-info\"><tr><th width=\"150px\">Відпущено:</th><th>ПП Олексенко Г. В.</th></tr><tr><td><b>ЄДРПОУ:</b></td><td><b>2345817293</b></td></tr><tr><td><b>АДРЕСА</b></td><td>Кам`нка, 2-й пров. Ватутіна, 6, кв.24</td></tr><tr><td><b>Тел.:</b></td><td>60319</td></tr><tr><td><b>РОЗР/РАХ.:</b></td><td>UA963543470000026008051545067 в ПАТ \"УКРСОЦБАНК\"</td></tr><tr><td><b>МФО</b></td><td>300023</td></tr><tr><td colspan=\"2\">єдиний податок</td> </tr></table>';
 var ogv = 'ПП Олексенко Г. В.'
 var ogvIn = '2345817293';
-var bv = '<table class=\"invoice-info\"><tr><th width=\"150px\">Відпущено:</th><th>ПП Олексенко Б. В.</th></tr><tr><td><b>ЄДРПОУ:</b></td><td><b>2306407577</b></td></tr><tr><td><b>АДРЕСА</b></td><td>Кам`нка, вул. Леніна 17д</td></tr><tr><td><b>Тел.:</b></td><td>60319</td></tr><tr><td><b>РОЗР/РАХ.:</b></td><td>26000000040272 в ПАТ \"УКРСОЦБАНК\"</td></tr><tr><td><b>МФО</b></td><td>300023</td></tr><tr><td colspan=\"2\">Підприємство - платник єдиного податку</td> </tr></table>';
+var bv = '<table class=\"invoice-info\"><tr><th width=\"150px\">Відпущено:</th><th>ПП Олексенко Б. В.</th></tr><tr><td><b>ЄДРПОУ:</b></td><td><b>2306407577</b></td></tr><tr><td><b>АДРЕСА</b></td><td>Кам`нка, вул. Леніна 17д</td></tr><tr><td><b>Тел.:</b></td><td>60319</td></tr><tr><td><b>РОЗР/РАХ.:</b></td><td>UA153543470000026009051521659 в ПАТ \"УКРСОЦБАНК\"</td></tr><tr><td><b>МФО</b></td><td>300023</td></tr><tr><td colspan=\"2\">Підприємство - платник єдиного податку</td> </tr></table>';
 var obv = 'ПП Олексенко Б. В.';
 var obvIn = '2306407577';
 $('#manager').append(gv).hide().fadeIn('slow');

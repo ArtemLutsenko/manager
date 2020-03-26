@@ -1,8 +1,8 @@
 $('table.detail-view').removeClass().addClass('invoice-info')
 
-var gv = '<table class=\"invoice-info\"><tr><th width=\"150px\">Відпущено:</th><th>ПП Олексенко Г. В.</th></tr><tr><td><b>ЄДРПОУ:</b></td><td><b>2345817293</b></td></tr><tr><td><b>АДРЕСА</b></td><td>Кам`нка, 2-й пров. Ватутіна, 6, кв.24</td></tr><tr><td><b>Тел.:</b></td><td>60319</td></tr><tr><td><b>РОЗР/РАХ.:</b></td><td>26003000049377 в ПАТ \"УКРСОЦБАНК\"</td></tr><tr><td><b>МФО</b></td><td>300023</td></tr><tr><td colspan=\"2\">єдиний податок</td> </tr></table>';
+var gv = '<table class=\"invoice-info\"><tr><th width=\"150px\">Відпущено:</th><th>ПП Олексенко Г. В.</th></tr><tr><td><b>ЄДРПОУ:</b></td><td><b>2345817293</b></td></tr><tr><td><b>АДРЕСА</b></td><td>Кам`нка, 2-й пров. Ватутіна, 6, кв.24</td></tr><tr><td><b>Тел.:</b></td><td>60319</td></tr><tr><td><b>РОЗР/РАХ.:</b></td><td>UA963543470000026008051545067 в ПАТ \"УКРСОЦБАНК\"</td></tr><tr><td><b>МФО</b></td><td>300023</td></tr><tr><td colspan=\"2\">єдиний податок</td> </tr></table>';
 var ogv = 'Олексенко Григорій Васильович'
-var bv = '<table class=\"invoice-info\"><tr><th width=\"150px\">Відпущено:</th><th>ПП Олексенко Б. В.</th></tr><tr><td><b>ЄДРПОУ:</b></td><td><b>2306407577</b></td></tr><tr><td><b>АДРЕСА</b></td><td>Кам`нка, вул. Леніна 17д</td></tr><tr><td><b>Тел.:</b></td><td>60319</td></tr><tr><td><b>РОЗР/РАХ.:</b></td><td>26000000040272 в ПАТ \"УКРСОЦБАНК\"</td></tr><tr><td><b>МФО</b></td><td>300023</td></tr><tr><td colspan=\"2\">Підприємство - платник єдиного податку</td> </tr></table>';
+var bv = '<table class=\"invoice-info\"><tr><th width=\"150px\">Відпущено:</th><th>ПП Олексенко Б. В.</th></tr><tr><td><b>ЄДРПОУ:</b></td><td><b>2306407577</b></td></tr><tr><td><b>АДРЕСА</b></td><td>Кам`нка, вул. Леніна 17д</td></tr><tr><td><b>Тел.:</b></td><td>60319</td></tr><tr><td><b>РОЗР/РАХ.:</b></td><td>UA153543470000026009051521659 в ПАТ \"УКРСОЦБАНК\"</td></tr><tr><td><b>МФО</b></td><td>300023</td></tr><tr><td colspan=\"2\">Підприємство - платник єдиного податку</td> </tr></table>';
 var obv = 'Олексенко Борис Васильович'
 $('#manager').append(gv).hide().fadeIn('slow');
 $('.name').append(ogv).hide().fadeIn('slow');
@@ -29,7 +29,7 @@ var lenght = $('table.order tr').length;
 if (shop){
     var newRow = addShip();
 }else if(customer){
-    var newRow = '<tr class=\"shipment\"><td width=\"50\">'+lenght+'</td><td>Доставка до під`їзду</td><td width=\"100\">штук</td><td width=\"100\" class=\"right\">1</td><td width=\"150\" class=\"right\">190.00</td><td width=\"150\" class=\"right\" data-subtotal=\"subtotal\">190.00</td></tr>'
+    var newRow = '<tr class=\"shipment\"><td width=\"50\">'+lenght+'</td><td>Доставка до під`їзду</td><td width=\"100\">штук</td><td width=\"100\" class=\"right\">1</td><td width=\"150\" class=\"right\">300.00</td><td width=\"150\" class=\"right\" data-subtotal=\"subtotal\">300.00</td></tr>'
 }else{
     console.log('invalid customer')
 }

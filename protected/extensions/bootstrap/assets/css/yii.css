@@ -38,6 +38,9 @@ text-align: right;
   margin-bottom:5px;
   text-align:right;
 }
+td.delivery-date {
+    white-space: nowrap;
+}
 .list-view .pager { margin-top:5px; }
 .list-view .sorter {
   margin:0 0 5px 0;
